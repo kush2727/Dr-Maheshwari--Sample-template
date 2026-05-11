@@ -61,7 +61,7 @@ export default function AboutPage() {
                     src="/doctor-2.jpeg" 
                     alt="DR.Maheshwari M" 
                     fill 
-                    className="object-cover"
+                    className="object-cover object-top"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-8">
                     <p className="text-white font-serif text-2xl font-medium">Chief Medical Director</p>
