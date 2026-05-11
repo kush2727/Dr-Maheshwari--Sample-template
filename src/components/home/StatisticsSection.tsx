@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView, useSpring } from "framer-motion";
-import { Baby, Activity, Globe, Award } from "lucide-react";
+import { Baby, Activity, Globe, Users } from "lucide-react";
 
 function Counter({ value, suffix = "", delay = 0 }: { value: number, suffix?: string, delay?: number }) {
   const ref = useRef(null);
@@ -58,10 +58,10 @@ const stats = [
     color: "text-blue-500",
   },
   {
-    label: "Years of Excellence",
-    value: 20,
+    label: "Dedicated Staff",
+    value: 50,
     suffix: "+",
-    icon: Award,
+    icon: Users,
     color: "text-emerald-500",
   },
 ];

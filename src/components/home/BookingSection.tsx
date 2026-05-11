@@ -65,7 +65,7 @@ export function BookingSection() {
                   Book Your Consultation
                 </h3>
                 <p className="text-white/90 leading-relaxed mb-12">
-                  Begin your journey to parenthood with a comprehensive evaluation and personalized guidance from Dr. Maheshwari. Our care team is ready to support you.
+                  Begin your journey to parenthood with a comprehensive evaluation and personalized guidance from DR.Maheshwari M. Our care team is ready to support you.
                 </p>
                 
                 <div className="space-y-6">

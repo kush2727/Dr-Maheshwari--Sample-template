@@ -29,7 +29,7 @@ export default function AboutPage() {
               transition={{ delay: 0.1 }}
               className="text-5xl md:text-6xl font-serif font-medium text-foreground mb-6"
             >
-              Dr. Priya <span className="text-gradient">Maheshwari</span>
+              DR.Maheshwari <span className="text-gradient">M</span>
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 10 }}
@@ -58,8 +58,8 @@ export default function AboutPage() {
               <div className="sticky top-32">
                 <div className="relative rounded-3xl overflow-hidden aspect-[4/5] shadow-2xl">
                   <Image 
-                    src="/doctor-portrait.png" 
-                    alt="Dr. Maheshwari" 
+                    src="/doctor-2.jpeg" 
+                    alt="DR.Maheshwari M" 
                     fill 
                     className="object-cover"
                   />
@@ -81,10 +81,10 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-3xl font-serif font-medium text-foreground mb-6">The Journey</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  Dr. Maheshwari's journey into reproductive medicine was fueled by a singular passion: to offer hope where there seemed to be none. After completing her specialized training at some of the world's most prestigious medical institutions, she returned with a vision to build a sanctuary for couples struggling with infertility.
+                  DR.Maheshwari M's journey into reproductive medicine was fueled by a singular passion: to offer hope where there seemed to be none. After completing her specialized training at some of the world's most prestigious medical institutions, she returned with a vision to build a sanctuary for couples struggling with infertility.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Over the past 20 years, she has pioneered several advanced IVF techniques in the region, bringing international standards of care to her patients. Her approach is fundamentally rooted in the belief that emotional well-being is just as critical as medical intervention.
+                  She has pioneered several advanced IVF techniques in the region, bringing international standards of care to her patients. Her approach is fundamentally rooted in the belief that emotional well-being is just as critical as medical intervention.
                 </p>
               </div>
 
@@ -119,13 +119,6 @@ export default function AboutPage() {
                     <div>
                       <h5 className="font-medium text-lg">Member of ESHRE & ASRM</h5>
                       <p className="text-muted-foreground">Active contributor to the European and American Societies for Reproductive Medicine.</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <Award className="w-6 h-6 text-primary shrink-0 mt-1 mr-4" />
-                    <div>
-                      <h5 className="font-medium text-lg">Excellence in Healthcare Award 2023</h5>
-                      <p className="text-muted-foreground">Recognized nationally for outstanding contribution to women's health.</p>
                     </div>
                   </li>
                 </ul>

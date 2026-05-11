@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, Calendar } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
@@ -18,6 +19,14 @@ const navLinks = [
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (pathname === "/") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,9 +47,12 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex flex-col">
-          <span className="font-serif text-2xl tracking-tight text-primary font-medium">Dr. Maheshwari</span>
-          <span className="text-[10px] uppercase tracking-widest text-muted-foreground">IVF & Fertility Specialist</span>
+        <Link href="/" className="flex flex-col" onClick={handleLogoClick}>
+          <span className="font-serif text-3xl tracking-tight font-bold flex items-center">
+            <span className="text-[#C23B7A]">Ovum</span>
+            <span className="text-[#7A5B8E] ml-2">Fertility</span>
+          </span>
+          <span className="text-[10px] uppercase tracking-[0.2em] text-[#E285A9] font-semibold mt-0.5">Path to Parenthood</span>
         </Link>
 
         {/* Desktop Links */}

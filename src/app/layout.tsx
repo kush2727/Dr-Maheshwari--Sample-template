@@ -16,8 +16,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Maheshwari | Premium IVF & Fertility Specialist",
-  description: "Turning Hope Into Parenthood. World-class IVF and fertility care by Dr. Maheshwari.",
+  title: "Ovum Fertility | DR.Maheshwari M",
+  description: "Path to Parenthood. World-class IVF and fertility care by DR.Maheshwari M.",
 };
 
 export default function RootLayout({

@@ -21,7 +21,7 @@ export async function POST(request: Request) {
     // Example Resend Integration:
     // await resend.emails.send({
     //   from: 'onboarding@resend.dev',
-    //   to: 'clinic@drmaheshwari.com',
+    //   to: 'clinic@drmaheshwarim.com',
     //   subject: `New Consultation Request: ${name}`,
     //   html: `<p>Name: ${name}</p><p>Phone: ${phone}</p>...`
     // });

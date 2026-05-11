@@ -142,7 +142,7 @@ export default function TreatmentsPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-serif font-medium mb-6">Not sure which treatment is right for you?</h2>
           <p className="text-zinc-400 text-lg mb-10 max-w-2xl mx-auto">
-            Every journey is unique. Schedule a consultation with Dr. Maheshwari to undergo a comprehensive evaluation and receive a personalized treatment plan.
+            Every journey is unique. Schedule a consultation with DR.Maheshwari M to undergo a comprehensive evaluation and receive a personalized treatment plan.
           </p>
           <Link href="/#booking">
             <Button size="lg" className="h-14 px-10 rounded-full bg-white text-zinc-900 hover:bg-zinc-200 text-lg shadow-xl">

@@ -12,7 +12,7 @@ export function Footer() {
           {/* Brand Col */}
           <div className="space-y-6">
             <Link href="/" className="flex flex-col">
-              <span className="font-serif text-3xl tracking-tight text-primary font-medium">Dr. Maheshwari</span>
+              <span className="font-serif text-3xl tracking-tight text-primary font-medium">DR.Maheshwari M</span>
               <span className="text-xs uppercase tracking-widest text-muted-foreground mt-1">IVF & Fertility Specialist</span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -30,7 +30,7 @@ export function Footer() {
           <div>
             <h4 className="font-serif text-lg font-medium mb-6 text-foreground">Quick Links</h4>
             <ul className="space-y-4 text-sm text-muted-foreground">
-              <li><Link href="/about" className="hover:text-primary transition-colors">About Dr. Maheshwari</Link></li>
+              <li><Link href="/about" className="hover:text-primary transition-colors">About DR.Maheshwari M</Link></li>
               <li><Link href="/treatments" className="hover:text-primary transition-colors">Our Treatments</Link></li>
               <li><Link href="/#success-stories" className="hover:text-primary transition-colors">Success Stories</Link></li>
               <li><Link href="/#gallery" className="hover:text-primary transition-colors">Clinic Gallery</Link></li>
@@ -64,7 +64,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <span>care@drmaheshwari.com</span>
+                <span>care@drmaheshwarim.com</span>
               </li>
               <li className="flex items-start space-x-3 pt-2">
                 <Clock className="w-5 h-5 text-primary shrink-0 mt-0.5" />
@@ -79,7 +79,7 @@ export function Footer() {
 
         {/* Bottom */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Dr. Maheshwari Fertility Clinic. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} DR.Maheshwari M Fertility Clinic. All rights reserved.</p>
           <div className="flex space-x-6">
             <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-primary transition-colors">Terms of Service</Link>

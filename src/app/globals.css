@@ -49,77 +49,77 @@
 }
 
 :root {
-  /* Soft White */
-  --background: oklch(0.985 0.005 70);
-  --foreground: oklch(0.2 0.05 250);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.2 0.05 250);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.2 0.05 250);
-  /* Champagne Gold */
-  --primary: oklch(0.82 0.12 85);
-  --primary-foreground: oklch(0.985 0.005 70);
-  /* Blush Pink */
-  --secondary: oklch(0.93 0.04 15);
-  --secondary-foreground: oklch(0.2 0.05 250);
-  /* Lavender */
-  --muted: oklch(0.95 0.03 290);
-  --muted-foreground: oklch(0.5 0.05 270);
-  --accent: oklch(0.95 0.03 290);
-  --accent-foreground: oklch(0.2 0.05 250);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.9 0.02 250);
-  --input: oklch(0.9 0.02 250);
-  --ring: oklch(0.82 0.12 85);
-  --chart-1: oklch(0.82 0.12 85);
-  --chart-2: oklch(0.93 0.04 15);
-  --chart-3: oklch(0.95 0.03 290);
-  --chart-4: oklch(0.7 0.1 200);
-  --chart-5: oklch(0.6 0.1 250);
+  /* Crisp White Background like the paper */
+  --background: #FFFFFF;
+  --foreground: #333333; /* Dark gray text, not navy */
+  --card: #FFFFFF;
+  --card-foreground: #333333;
+  --popover: #FFFFFF;
+  --popover-foreground: #333333;
+  /* Deep Magenta Pink (Ovum) */
+  --primary: #C23B7A;
+  --primary-foreground: #ffffff;
+  /* Dusty Purple (Fertility) */
+  --secondary: #7A5B8E;
+  --secondary-foreground: #ffffff;
+  /* Light Pink background elements */
+  --muted: #F8F2F5;
+  --muted-foreground: #6D5E70;
+  --accent: #E285A9;
+  --accent-foreground: #ffffff;
+  --destructive: #EF4444;
+  --border: #E8D8E0;
+  --input: #E8D8E0;
+  --ring: #C23B7A;
+  --chart-1: #C23B7A;
+  --chart-2: #7A5B8E;
+  --chart-3: #E285A9;
+  --chart-4: #F8F2F5;
+  --chart-5: #6D5E70;
   --radius: 0.75rem;
-  --sidebar: oklch(0.985 0.005 70);
-  --sidebar-foreground: oklch(0.2 0.05 250);
-  --sidebar-primary: oklch(0.82 0.12 85);
-  --sidebar-primary-foreground: oklch(0.985 0.005 70);
-  --sidebar-accent: oklch(0.95 0.03 290);
-  --sidebar-accent-foreground: oklch(0.2 0.05 250);
-  --sidebar-border: oklch(0.9 0.02 250);
-  --sidebar-ring: oklch(0.82 0.12 85);
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #333333;
+  --sidebar-primary: #C23B7A;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #E285A9;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #E8D8E0;
+  --sidebar-ring: #C23B7A;
 }
 
 .dark {
-  /* Keeping a luxury dark mode: dark midnight blue */
-  --background: oklch(0.18 0.05 260);
-  --foreground: oklch(0.985 0.005 70);
-  --card: oklch(0.22 0.05 260);
-  --card-foreground: oklch(0.985 0.005 70);
-  --popover: oklch(0.22 0.05 260);
-  --popover-foreground: oklch(0.985 0.005 70);
-  --primary: oklch(0.82 0.12 85);
-  --primary-foreground: oklch(0.18 0.05 260);
-  --secondary: oklch(0.3 0.04 260);
-  --secondary-foreground: oklch(0.985 0.005 70);
-  --muted: oklch(0.3 0.04 260);
-  --muted-foreground: oklch(0.7 0.05 260);
-  --accent: oklch(0.3 0.04 260);
-  --accent-foreground: oklch(0.985 0.005 70);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(0.35 0.05 260);
-  --input: oklch(0.35 0.05 260);
-  --ring: oklch(0.82 0.12 85);
-  --chart-1: oklch(0.82 0.12 85);
-  --chart-2: oklch(0.93 0.04 15);
-  --chart-3: oklch(0.95 0.03 290);
-  --chart-4: oklch(0.7 0.1 200);
-  --chart-5: oklch(0.6 0.1 250);
-  --sidebar: oklch(0.18 0.05 260);
-  --sidebar-foreground: oklch(0.985 0.005 70);
-  --sidebar-primary: oklch(0.82 0.12 85);
-  --sidebar-primary-foreground: oklch(0.18 0.05 260);
-  --sidebar-accent: oklch(0.3 0.04 260);
-  --sidebar-accent-foreground: oklch(0.985 0.005 70);
-  --sidebar-border: oklch(0.35 0.05 260);
-  --sidebar-ring: oklch(0.82 0.12 85);
+  /* Dark Plum/Charcoal instead of Navy */
+  --background: #1A1518;
+  --foreground: #F8F2F5;
+  --card: #251D22;
+  --card-foreground: #F8F2F5;
+  --popover: #251D22;
+  --popover-foreground: #F8F2F5;
+  --primary: #D65A95;
+  --primary-foreground: #ffffff;
+  --secondary: #9B7CB0;
+  --secondary-foreground: #ffffff;
+  --muted: #382C34;
+  --muted-foreground: #A695A6;
+  --accent: #B0557E;
+  --accent-foreground: #ffffff;
+  --destructive: #EF4444;
+  --border: #4A3A45;
+  --input: #4A3A45;
+  --ring: #D65A95;
+  --chart-1: #D65A95;
+  --chart-2: #9B7CB0;
+  --chart-3: #B0557E;
+  --chart-4: #382C34;
+  --chart-5: #A695A6;
+  --sidebar: #1A1518;
+  --sidebar-foreground: #F8F2F5;
+  --sidebar-primary: #D65A95;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #382C34;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #4A3A45;
+  --sidebar-ring: #D65A95;
 }
 
 @layer base {
@@ -139,9 +139,9 @@
 }
 
 @utility text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#b8860b] to-[#d4af37];
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#C23B7A] to-[#7A5B8E];
 }
 
 @utility text-gradient-gold {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#b8860b] to-[#d4af37];
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#C23B7A] to-[#E285A9];
 }
