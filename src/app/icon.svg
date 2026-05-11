@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- White background with soft rounded corners for a clean, professional app-icon look -->
+  <rect width="512" height="512" rx="120" fill="#ffffff" />
+  
+  <!-- Outer Egg (O) in Ovum Magenta -->
+  <circle cx="280" cy="256" r="140" fill="none" stroke="#C23B7A" stroke-width="48" />
+  
+  <!-- Sperm entering -->
+  <path d="M 60 256 C 100 200, 140 312, 180 256 C 200 220, 220 220, 240 256" fill="none" stroke="#C23B7A" stroke-width="32" stroke-linecap="round" />
+  
+  <!-- Inner nucleus / Fetus representation in Fertility Purple -->
+  <circle cx="280" cy="256" r="40" fill="#7A5B8E" />
+</svg>
