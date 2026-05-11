@@ -127,7 +127,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary;
+    @apply bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary overflow-x-hidden;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif font-medium tracking-tight;
@@ -139,9 +139,9 @@
 }
 
 @utility text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-[#e6e6fa];
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#b8860b] to-[#d4af37];
 }
 
 @utility text-gradient-gold {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#d4af37] to-[#f3e5ab];
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#b8860b] to-[#d4af37];
 }

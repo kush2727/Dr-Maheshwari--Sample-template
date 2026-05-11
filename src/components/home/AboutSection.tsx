@@ -38,10 +38,10 @@ export function AboutSection() {
             {/* Decorative Elements */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] rounded-full border border-primary/20 -z-10" />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] rounded-full border border-secondary/20 -z-10" />
-            <div className="absolute -bottom-6 -right-6 glass p-6 rounded-2xl z-20 shadow-xl max-w-xs animate-bounce" style={{ animationDuration: '3s' }}>
+            <div className="absolute -bottom-2 -right-2 md:-bottom-6 md:-right-6 glass p-4 md:p-6 rounded-2xl z-20 shadow-xl max-w-[200px] md:max-w-xs animate-bounce" style={{ animationDuration: '3s' }}>
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                  <Award className="w-5 h-5 text-primary" />
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                  <Award className="w-4 h-4 md:w-5 md:h-5 text-primary" />
                 </div>
                 <div>
                   <p className="font-serif font-medium text-sm text-foreground">Top Fertility Expert</p>

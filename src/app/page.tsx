@@ -24,9 +24,9 @@ export default function Home() {
             initial={{ scale: 1.05 }}
             animate={{ scale: 1 }}
             transition={{ duration: 2, ease: "easeOut" }}
-            className="absolute inset-0 bg-[url('/hero-bg.png')] bg-cover bg-center bg-no-repeat"
+            className="absolute inset-0 bg-[url('/hero-bg.png')] bg-cover bg-[position:65%_top] md:bg-center bg-no-repeat"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/40 dark:from-background/95 dark:via-background/80 dark:to-background/40" />
+          <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-white/95 via-white/85 to-white/30 dark:from-background/95 dark:via-background/85 dark:to-background/30" />
         </div>
 
         {/* Floating Particles/Blobs */}
@@ -49,7 +49,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-5xl md:text-7xl font-serif font-medium text-foreground leading-[1.1] mb-6"
+              className="text-4xl sm:text-5xl md:text-7xl font-serif font-medium text-foreground leading-[1.1] mb-6"
             >
               Turning Hope Into <br className="hidden md:block" />
               <span className="text-gradient">Parenthood</span>
